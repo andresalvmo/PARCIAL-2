@@ -23,3 +23,15 @@ try{
 }catch(Exceptionerror){
 
 }
+
+2. ¿ Que es sobre-escritura de metodos? 
+
+Es cuando un metodo tiene el mismo nombre y tipo de otro en diferente clase
+
+¿Por que aplicarla? 
+
+Nos permite redefinir un metodo que se heredo para que funcione de acuerdo a nuestras necesidades y no al metodo de la superclase ya definido
+
+¿Como impedir que se sobre-escriba un metodo?
+
+Se puede impedir poniendo la palabra "final" en la clase base
