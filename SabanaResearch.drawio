@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T23:47:33.178Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="H_wWoctbzA100zSq1M84" version="14.6.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-16T23:55:11.352Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="4IKgSgLbKXA7G_Jbt4ya" version="14.6.1" type="github" pages="2">
   <diagram id="BMrYBfoX8CHqtKJXn9eS" name="Page-1">
     <mxGraphModel dx="3658" dy="1582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -535,10 +535,24 @@
           <mxGeometry x="360" y="220" width="460" height="300" as="geometry" />
         </mxCell>
         <mxCell id="Iv7PtY_8-q_g332nqkBc-13" value=":ExecutiveSynthetizer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="Iv7PtY_8-q_g332nqkBc-1">
-          <mxGeometry x="530" y="50" width="130" height="300" as="geometry" />
+          <mxGeometry x="530" y="50" width="130" height="420" as="geometry" />
         </mxCell>
         <mxCell id="fXfFZgiZu-GZWWcjaUEw-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Iv7PtY_8-q_g332nqkBc-13">
-          <mxGeometry x="60" y="150" width="10" height="120" as="geometry" />
+          <mxGeometry x="60" y="150" width="10" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="dc1HSjIiLIId2zouqdUl-0" value="getObjective():String" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;" edge="1" parent="Iv7PtY_8-q_g332nqkBc-13" target="fXfFZgiZu-GZWWcjaUEw-3">
+          <mxGeometry x="-0.9649" y="30" relative="1" as="geometry">
+            <mxPoint x="70" y="350" as="sourcePoint" />
+            <mxPoint x="230" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="350" />
+              <mxPoint x="490" y="350" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dc1HSjIiLIId2zouqdUl-1" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="dc1HSjIiLIId2zouqdUl-0">
+          <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fXfFZgiZu-GZWWcjaUEw-2" value=":Student" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="Iv7PtY_8-q_g332nqkBc-1">
           <mxGeometry x="820" y="50" width="100" height="300" as="geometry" />
@@ -547,6 +561,10 @@
           <mxGeometry x="-0.9332" y="30" relative="1" as="geometry">
             <mxPoint x="50" y="150" as="sourcePoint" />
             <mxPoint x="210" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="270" y="150" />
+              <mxPoint x="270" y="150" />
+            </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -571,10 +589,10 @@
           <mxGeometry x="45" y="120" width="10" height="160" as="geometry" />
         </mxCell>
         <mxCell id="fXfFZgiZu-GZWWcjaUEw-3" value=":Activity" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="Iv7PtY_8-q_g332nqkBc-1">
-          <mxGeometry x="1120" y="50" width="100" height="300" as="geometry" />
+          <mxGeometry x="1120" y="50" width="100" height="360" as="geometry" />
         </mxCell>
         <mxCell id="fXfFZgiZu-GZWWcjaUEw-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="fXfFZgiZu-GZWWcjaUEw-3">
-          <mxGeometry x="45" y="130" width="10" height="160" as="geometry" />
+          <mxGeometry x="45" y="130" width="10" height="230" as="geometry" />
         </mxCell>
         <mxCell id="fXfFZgiZu-GZWWcjaUEw-4" value=":Iteration" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="Iv7PtY_8-q_g332nqkBc-1">
           <mxGeometry x="990" y="50" width="100" height="300" as="geometry" />
