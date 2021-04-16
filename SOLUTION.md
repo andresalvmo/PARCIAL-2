@@ -34,4 +34,8 @@ Nos permite redefinir un metodo que se heredo para que funcione de acuerdo a nue
 
 ¿Como impedir que se sobre-escriba un metodo?
 
+*PARTE EXTENDIENDO
+
+De los diseños de "extendiendo" se debe cambiar la dependencia que Isynthetyzer debido a que tambien depende de la clase Student para saber el nombre, duracion
+
 Se puede impedir poniendo la palabra "final" en la clase base
