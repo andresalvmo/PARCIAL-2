@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T23:00:39.302Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="n2Z5ukTei67ZaXLeyl0Z" version="14.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-16T23:23:29.896Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="aBul7T0t7LjO_jadVA-9" version="14.6.1" type="github" pages="2">
   <diagram id="BMrYBfoX8CHqtKJXn9eS" name="Page-1">
     <mxGraphModel dx="3658" dy="1582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -481,6 +481,27 @@
         </mxCell>
         <mxCell id="fffcVS3mCHa0CQ3i0ZVS-167" value="- synthesizer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeWidth=1;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="-1792.5" y="-322" width="80" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7ug7rBHlza2AfdtT0zik" name="Secuencia Summarize()">
+    <mxGraphModel dx="1108" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Iv7PtY_8-q_g332nqkBc-0" />
+        <mxCell id="Iv7PtY_8-q_g332nqkBc-1" parent="Iv7PtY_8-q_g332nqkBc-0" />
+        <mxCell id="Iv7PtY_8-q_g332nqkBc-3" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="Iv7PtY_8-q_g332nqkBc-1">
+          <mxGeometry x="70" y="60" width="20" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Iv7PtY_8-q_g332nqkBc-4" value="summarize()" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;" edge="1" parent="Iv7PtY_8-q_g332nqkBc-3">
+          <mxGeometry x="-0.75" y="20" relative="1" as="geometry">
+            <mxPoint x="10" y="100" as="sourcePoint" />
+            <mxPoint x="170" y="100" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Iv7PtY_8-q_g332nqkBc-5" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="Iv7PtY_8-q_g332nqkBc-4">
+          <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
