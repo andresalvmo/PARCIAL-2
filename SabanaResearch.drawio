@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T23:23:29.896Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="aBul7T0t7LjO_jadVA-9" version="14.6.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-16T23:37:08.669Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="cfTgbfonWARa0cRyj9YN" version="14.6.1" type="github" pages="2">
   <diagram id="BMrYBfoX8CHqtKJXn9eS" name="Page-1">
     <mxGraphModel dx="3658" dy="1582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -482,6 +482,15 @@
         <mxCell id="fffcVS3mCHa0CQ3i0ZVS-167" value="- synthesizer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeWidth=1;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="-1792.5" y="-322" width="80" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="nYEmkUnpg-YiiIpoGksZ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;endSize=12;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="fffcVS3mCHa0CQ3i0ZVS-69" target="fffcVS3mCHa0CQ3i0ZVS-155">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1840.5" y="-389.9659999999999" as="sourcePoint" />
+            <mxPoint x="-1568.4" y="-262.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nYEmkUnpg-YiiIpoGksZ-2" value="- synthesizer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeWidth=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-1717" y="-269" width="80" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -502,6 +511,31 @@
         </mxCell>
         <mxCell id="Iv7PtY_8-q_g332nqkBc-5" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="Iv7PtY_8-q_g332nqkBc-4">
           <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Iv7PtY_8-q_g332nqkBc-6" value=":ISynthesizer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="Iv7PtY_8-q_g332nqkBc-1">
+          <mxGeometry x="190" y="50" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Iv7PtY_8-q_g332nqkBc-8" value="summarize()" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;" edge="1" parent="Iv7PtY_8-q_g332nqkBc-6" target="Iv7PtY_8-q_g332nqkBc-10">
+          <mxGeometry x="-0.875" y="20" relative="1" as="geometry">
+            <mxPoint x="50" y="150" as="sourcePoint" />
+            <mxPoint x="210" y="150" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Iv7PtY_8-q_g332nqkBc-9" value="1" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="Iv7PtY_8-q_g332nqkBc-8">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Iv7PtY_8-q_g332nqkBc-10" value=":StudentSynthetizer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="Iv7PtY_8-q_g332nqkBc-1">
+          <mxGeometry x="350" y="50" width="110" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Iv7PtY_8-q_g332nqkBc-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="Iv7PtY_8-q_g332nqkBc-10">
+          <mxGeometry x="50" y="160" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Iv7PtY_8-q_g332nqkBc-12" value="loop[ p in proyect]" style="shape=umlFrame;whiteSpace=wrap;html=1;width=110;height=30;" vertex="1" parent="Iv7PtY_8-q_g332nqkBc-1">
+          <mxGeometry x="360" y="220" width="460" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Iv7PtY_8-q_g332nqkBc-13" value=":ExecutiveSynthetizer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="Iv7PtY_8-q_g332nqkBc-1">
+          <mxGeometry x="530" y="50" width="130" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
